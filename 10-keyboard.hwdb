@@ -1,0 +1,10 @@
+#MS-Tech 1200 Remote
+evdev:input:b0003v1D57pAC01*
+ KEYBOARD_KEY_10081=unknown   # Disable power button 
+ KEYBOARD_KEY_ffbc0047=mp3    # MP3
+ KEYBOARD_KEY_ffbc0025=tv     # TV
+ KEYBOARD_KEY_ffbc000d=media  # MEDIA
+ KEYBOARD_KEY_ffbc004a=video  # VIDEO
+ KEYBOARD_KEY_ffbc0049=camera # CAMERA
+ KEYBOARD_KEY_ffbc0046=tv2    # TV2
+

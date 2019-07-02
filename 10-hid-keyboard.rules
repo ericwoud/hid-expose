@@ -1,0 +1,2 @@
+ATTRS{idVendor}=="1d57", ATTRS{idProduct}=="ac01", KERNEL=="event*", ACTION=="add", RUN+="/bin/su -c '/bin/sleep 0.1 ; /sbin/modprobe hid-expose ; /bin/echo -n $(basename $(readlink -f $sys$devpath/../../../)) > /sys/bus/hid/drivers/hid-generic/unbind ; /bin/echo 3 $env{ID_VENDOR_ID} $env{ID_MODEL_ID} >> /sys/bus/hid/drivers/expose/new_id'"
+
