@@ -12,7 +12,7 @@ Use evtest to get keycodes.
 
 ### Installing
 
----
+```
 git clone https://github.com/ericwoud/hid-expose.git
 sudo apt-get install evtest build-essential linux-headers-$(uname -r)
 cd hid-expose/
@@ -27,7 +27,7 @@ sudo udevadm control --reload-rules
 sudo cp 10-keyboard.hwdb /etc/udev/hwdb.d/
 sudo udevadm -d hwdb --update
 sudo udevadm -d trigger -v
----
+```
 
 Restart if necessary.
 
